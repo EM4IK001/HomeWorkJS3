@@ -1,8 +1,8 @@
 // (A) BANANA(S)
 
-var n = Number(prompt("Введите число BANANA(S)"));
+let n = Number(prompt("Введите число BANANA(S)"));
 
-for (var i = 1; i <= n; i++) {
+for (let i = 1; i <= n; i++) {
   if (i === 1) {
     console.log(i + " banana");
   } else {
@@ -12,10 +12,10 @@ for (var i = 1; i <= n; i++) {
 
 // (B)Чётные числа
 
-var b = Number(prompt("Введите чётное число"));
-var sum = 0;
+let b = Number(prompt("Введите чётное число"));
+let sum = 0;
 
-for (var i = 2; i < b; i += 2) {
+for (let i = 2; i < b; i += 2) {
   sum += i;
 }
 
@@ -23,12 +23,12 @@ console.log("Сумма чётных чисел:", sum);
 
 // (C) Возведение в степень
 
-var number = Number(prompt("Введите число"));
-var power = Number(prompt("Введите степень"));
+let number = Number(prompt("Введите число"));
+let power = Number(prompt("Введите степень"));
 
-var result = 1;
+let result = 1;
 
-for (var i = 0; i < power; i++) {
+for (let i = 0; i < power; i++) {
   result *= number;
 }
 
